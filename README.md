@@ -16,4 +16,4 @@ You can add it in the system settings, or refer to the official documentation:
 BRANDING_CSS = 'custom/custom.css'
 ```
 
-At the same time, blue folder icons are provided, which need to be replaced `/home/seafile/seafile-pro-server-9.0.5/seahub/media/img/` manually 
+At the same time, blue folder icons are provided, which need to be replaced `/opt/seafile/seafile-server-latest/seahub/media/img/` manually 
