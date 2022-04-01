@@ -1453,3 +1453,13 @@ a:hover {
 #notifications .sf2-icon-bell {
     margin-top: 2px;
 }
+
+.big-new-file-button:focus, .big-new-file-button:hover {
+    border-color: #4285f4;
+    color: #4285f4;
+}
+
+.path-toolbar .toolbar-item a:hover {
+    color: #4285f4;
+    text-decoration: none;
+}
