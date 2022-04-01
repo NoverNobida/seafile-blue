@@ -1,3 +1,14 @@
+a {
+    color: #4285f4;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:focus, a:hover {
+    color: #4285f4;
+}
+
 .op-target {
     color: #4285f4;
     word-wrap: break-word;
@@ -81,30 +92,6 @@
     text-align: center;
     color: #4285f4;
     cursor: pointer;
-}
-
-@media (max-width: 767px) {
-    .item-meta-info-highlighted {
-        display: inline-block;
-        margin: 0 0 .2em .8em;
-        padding: 0 .5em;
-        background: #4285f4;
-        border-radius: 2px;
-        color: #fff;
-        font-size: 0.75rem;
-    }
-}
-
-a {
-    color: #4285f4;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-
-a:hover {
-    color: #2573f4;
-    text-decoration: underline;
 }
 
 mark,
@@ -682,15 +669,6 @@ button.bg-primary:focus {
 a.text-primary:hover,
 a.text-primary:focus {
     color: #2976f4 !important;
-}
-
-a {
-    text-decoration-skip: ink;
-    color: #4285f4;
-}
-
-a:hover {
-    color: #4285f4;
 }
 
 .nav-tabs {
@@ -1450,10 +1428,6 @@ a:hover {
     color: #4285f4;
 }
 
-#notifications .sf2-icon-bell {
-    margin-top: 2px;
-}
-
 .big-new-file-button:focus, .big-new-file-button:hover {
     border-color: #4285f4;
     color: #4285f4;
@@ -1462,4 +1436,21 @@ a:hover {
 .path-toolbar .toolbar-item a:hover {
     color: #4285f4;
     text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .item-meta-info-highlighted {
+        display: inline-block;
+        margin: 0 0 .2em .8em;
+        padding: 0 .5em;
+        background: #4285f4;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 0.75rem;
+    }
+    .login-panel {
+        width: 100%;
+        padding-left: calc((100% - 270px)/2);
+        padding-right: calc((100% - 270px)/2);
+    }
 }
