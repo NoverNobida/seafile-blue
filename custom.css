@@ -1438,6 +1438,15 @@ a.text-primary:focus {
     text-decoration: none;
 }
 
+.search-result-container .search-result-item:hover {
+    border-left: 2px solid #4285f4;
+    background-color: #eee;
+}
+
+.search-result-list .item-content .item-name {
+    color: #4285f4 !important;
+}
+
 @media (max-width: 767px) {
     .item-meta-info-highlighted {
         display: inline-block;
